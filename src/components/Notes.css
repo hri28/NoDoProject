@@ -1,0 +1,229 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+* {
+  box-sizing: border-box;
+}
+
+/* GLOBAL STYLES */
+
+
+.Notes {
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 16px;
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/lightpaperfibers.png);
+}
+
+.markdown-preview{
+  float: left;
+}
+
+.notessidebarp{
+  float: left;
+}
+
+button {
+  background: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  color: #08c;
+}
+button:hover {
+  color: #04c;
+}
+
+.Notes {
+  display: flex;
+}
+
+/* SIDEBAR STYLES */
+
+.app-sidebar {
+  width: 30%;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+}
+
+.app-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+.app-sidebar-header h1 {
+  margin: 0;
+}
+
+.app-sidebar-notes {
+  height: calc(100vh - 78px);
+  overflow-y: scroll;
+}
+.app-sidebar-note {
+  padding: 25px;
+  cursor: pointer;
+}
+.sidebar-note-title {
+  display: flex;
+  justify-content: space-between;
+}
+.app-sidebar-note button {
+  color: crimson;
+}
+.app-sidebar-note p {
+  margin: 10px 0;
+}
+
+.app-sidebar-note:hover {
+  background: #FDFFAB;
+}
+
+
+/* NOTE EDITOR/PREVIEW (MAIN) STYLES */
+
+.app-main {
+  width: 70%;
+  height: 100vh;
+}
+.app-main-note-edit,
+.app-main-note-preview {
+  height: 50vh;
+}
+
+.no-active-note {
+  width: 70%;
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+  font-size: 2rem;
+  color: #999;
+}
+
+/* Editing */
+
+.app-main-note-edit input,
+textarea {
+  display: block;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  width: 100%;
+  height: calc(50vh - 130px);
+  padding: 10px;
+  resize: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+.app-main-note-edit input {
+  height: 50px;
+  font-size: 2rem;
+}
+
+/* Preview */
+.app-main-note-preview {
+  border-top: 1px solid #ddd;
+  overflow-y: scroll;
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.preview-title {
+  padding: 25px 25px 0 25px;
+  margin: 0;
+}
+
+.markdown-preview {
+  padding: 25px 25px 0 25px;
+  font-size: 1rem;
+  line-height: 2rem;
+
+}
+
+#b1{
+  font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #C9B2EF;
+background: #FDFFAB;
+padding:0.3em;
+}
+#st1{
+font-family: Poppins;
+font-style: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.app-sidebar-note small {
+  display: block;
+  color: #999;
+  font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 27px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+}
+
+#b2{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  letter-spacing: 0.05em;
+  
+  color: #EE5656;
+  
+}
+
+#b4{
+font-family: Poppins;
+font-style: normal;
+font-size: 5px;
+line-height: 8px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+}
+
+
+
+.app-main-note-edit {
+  padding: 25px;
+  background: #d6c3f1;
+}
+.app-sidebar-note.active,
+.app-sidebar-note.active small {
+  background: #C9B2EF;
+  color: white;
+}
+.app-main-note-preview {
+  background-color:#F5F5F5;
+}
+.no-active-note{
+  background-color:#F5F5F5;
+}
+.app-sidebar-notes{
+  background-color:#F5F5F5;
+}
+.app-sidebar-header{
+  background-color:#F5F5F5;
+}

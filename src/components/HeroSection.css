@@ -1,0 +1,83 @@
+
+.hero-container{
+    /* background-color: #D6CCEB; */
+    background-color: #F5F5F5;
+    height: 760px;
+    display:flexbox;  
+    justify-content: center;
+}
+
+.content{
+    margin-top: 130px;
+}
+h1 .heroh1 {
+    float: left;
+    margin-right: 200px;
+    /* margin-left: -100px; */
+
+    margin-top: 200px;
+    letter-spacing: 0.05em;
+    font-size: 50px;
+    color: black;
+    position: relative;
+}
+h1  .organised{
+    color: #b48df3; 
+}
+
+.stayorg{
+    font-size: 48px;
+}
+
+p {
+    position: relative;
+    float: right;
+    color: #000000;
+    font-size: 20px;
+    /* margin-right: 210px; */
+    /* margin-left: -100px; */
+    letter-spacing: 0.05em;
+    position: relative;
+    justify-content: center;
+}
+
+.content{
+
+    margin-left: -100px;
+}
+
+.img1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -10px;
+    padding: 0;
+    z-index: 1;
+}
+.img2{
+    position: absolute;
+    margin-top: 100px;
+}
+
+.btns{
+    padding: 18px;
+    width: 100px;
+    margin: 70px;
+    background: #F7F8C6;
+    color: #c3a5f5;
+    border: none;
+    font-size: large;
+    margin-top: 20px;
+    position: relative;
+    margin-left: -3px;
+    justify-content: center;
+    font-weight: normal;
+    transition: all 0.3s;
+}
+
+.btns:hover{
+    /* background-color:#fbfccf; */
+    transition: all 0.2s ease-in;
+    background-color: #D6CCEB;
+    border: 1px solid white;
+    color: white;
+}
