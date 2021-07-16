@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/NoDoProject/static/css/main.482273b6.chunk.css",
+    "main.js": "/NoDoProject/static/js/main.5062facf.chunk.js",
+    "main.js.map": "/NoDoProject/static/js/main.5062facf.chunk.js.map",
+    "runtime-main.js": "/NoDoProject/static/js/runtime-main.f7b53e4d.js",
+    "runtime-main.js.map": "/NoDoProject/static/js/runtime-main.f7b53e4d.js.map",
+    "static/js/2.ad40c451.chunk.js": "/NoDoProject/static/js/2.ad40c451.chunk.js",
+    "static/js/2.ad40c451.chunk.js.map": "/NoDoProject/static/js/2.ad40c451.chunk.js.map",
+    "index.html": "/NoDoProject/index.html",
+    "static/css/main.482273b6.chunk.css.map": "/NoDoProject/static/css/main.482273b6.chunk.css.map",
+    "static/js/2.ad40c451.chunk.js.LICENSE.txt": "/NoDoProject/static/js/2.ad40c451.chunk.js.LICENSE.txt",
+    "static/media/FormSignup.css": "/NoDoProject/static/media/IMG_4915.c9f95345.PNG",
+    "static/media/Timer.css": "/NoDoProject/static/media/background13.e2e90822.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7b53e4d.js",
+    "static/js/2.ad40c451.chunk.js",
+    "static/css/main.482273b6.chunk.css",
+    "static/js/main.5062facf.chunk.js"
+  ]
+}
